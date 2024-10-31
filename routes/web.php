@@ -1,6 +1,5 @@
+use App\Http\Controllers\ResumeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/resume', function () {
-    return view('resumes.index'); // Ensure the path matches your file structure
-});
+Route::get('/resume', [ResumeController::class, 'show']);
 
