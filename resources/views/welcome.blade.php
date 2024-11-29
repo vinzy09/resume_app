@@ -127,7 +127,7 @@
     <div class="container">
         <!-- Header Section -->
         <header>
-            <img src="pp.jpg" alt="Profile Picture">
+            <img src="avatar.png" alt="Profile Picture">
             <h1>Vincent Joe L. Visda</h1>
             <p>{{$details->title}} | {{$details->email}} | {{$details->phone}}</p>
         </header>
@@ -180,7 +180,7 @@
 
         <!-- Footer Section -->
         <footer>
-            <p>&copy; 2025 John Jhoward Gelina</p>
+            <p>&copy; 2024 Vincent Joe Visda</p>
         </footer>
     </div>
 
